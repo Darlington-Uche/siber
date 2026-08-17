@@ -306,6 +306,18 @@ bot.on("text", async (ctx) => {
 monitor.init(refreshDashboardByChatId, async (chatId, text) => {
   await bot.telegram.sendMessage(chatId, text, { parse_mode: "Markdown" });
 });
+
+const PORT = process.env.PORT || 3000;
+
+require("http")
+  .createServer((req, res) => {
+    res.writeHead(200, { "Content-Type": "text/plain" });
+    res.end("Bot is running");
+  })
+  .listen(PORT, "0.0.0.0", () => {
+    console.log(`HTTP server running on port ${PORT}`);
+  });
+
 bot.launch().then(() => console.log("bot running"));
 
 bot.catch((err, ctx) => {
@@ -315,3 +327,4 @@ bot.catch((err, ctx) => {
 process.once("SIGINT", () => bot.stop("SIGINT"));
 process.once("SIGTERM", () => bot.stop("SIGTERM"));
 		
+
