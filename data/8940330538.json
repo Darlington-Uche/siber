@@ -1,0 +1,115 @@
+{
+  "chatId": 8940330538,
+  "wallet": {
+    "pubkey": "G8S7PzvtC6MBpyAFGh7734rkBmrJZogSn1Xs5uTU3dAD",
+    "privkeyEnc": "NAa7SV+YVZNT6JxZSrYjHi264DssEaYJy0hd6jUKEuaEsWnQbiqeoMZPvGl4x8Vtg9rUzFJ5SlemCGy7/aG/tAYe/nZ0mCXJ2HqENQcLWBxfT5Lt/vHqKVV6MatMyB0gbaqhL0vuOE21fKlC7vUe7I7V6wQ="
+  },
+  "dashboardMessageId": 408,
+  "view": "main",
+  "awaiting": null,
+  "demoMode": true,
+  "running": true,
+  "demoBalanceUsd": 4.891,
+  "demo": {
+    "settings": {
+      "monitorTimeSec": 300,
+      "volumeThresholdUsd": 5000,
+      "buyAmountSol": 0.05,
+      "sellPct": 50
+    },
+    "stats": {
+      "tokensBought": 4,
+      "multiplierSum": 0,
+      "pnlUsd": 0
+    }
+  },
+  "real": {
+    "settings": {
+      "monitorTimeSec": 300,
+      "volumeThresholdUsd": 5000,
+      "buyAmountSol": 0.05,
+      "sellPct": 50
+    },
+    "stats": {
+      "tokensBought": 0,
+      "multiplierSum": 0,
+      "pnlUsd": 0
+    }
+  },
+  "positions": [
+    {
+      "mint": "7UvJb475bjskKSoht6DhmV1QG1yVrQsNNdizRWnhn5s5",
+      "symbol": "ENEN",
+      "buyPriceSol": 5.3007836980027597e-8,
+      "buyAmountSol": 0.05,
+      "buyTime": 1786803545777,
+      "mode": "DEMO"
+    },
+    {
+      "mint": "EEetZQebR3bERY3pDtHzBVuYAaCBsNfmjfNwevtdpump",
+      "symbol": "EN EN",
+      "buyPriceSol": 2.9535266426042562e-8,
+      "buyAmountSol": 0.05,
+      "buyTime": 1786803557590,
+      "mode": "DEMO"
+    },
+    {
+      "mint": "8TXBsmzeHtDCma9ysmg4N8qUV3oX6b7TwB6QwjaQpump",
+      "symbol": "En",
+      "buyPriceSol": 5.528534013304192e-8,
+      "buyAmountSol": 0.05,
+      "buyTime": 1786803562525,
+      "mode": "DEMO"
+    },
+    {
+      "mint": "5vkqCTcv8FsDa9LpyggezxVZUpov8xgF5ZeyVAPopump",
+      "symbol": "Tradwife",
+      "buyPriceSol": 2.9120446865772312e-8,
+      "buyAmountSol": 0.05,
+      "buyTime": 1786803901373,
+      "mode": "DEMO"
+    }
+  ],
+  "tradeLog": [
+    {
+      "ts": 1786803545777,
+      "type": "BUY",
+      "mint": "7UvJb475bjskKSoht6DhmV1QG1yVrQsNNdizRWnhn5s5",
+      "symbol": "ENEN",
+      "amountSol": 0.05,
+      "priceSol": 5.3007836980027597e-8,
+      "tx": "DEMO",
+      "mode": "DEMO"
+    },
+    {
+      "ts": 1786803557590,
+      "type": "BUY",
+      "mint": "EEetZQebR3bERY3pDtHzBVuYAaCBsNfmjfNwevtdpump",
+      "symbol": "EN EN",
+      "amountSol": 0.05,
+      "priceSol": 2.9535266426042562e-8,
+      "tx": "DEMO",
+      "mode": "DEMO"
+    },
+    {
+      "ts": 1786803562525,
+      "type": "BUY",
+      "mint": "8TXBsmzeHtDCma9ysmg4N8qUV3oX6b7TwB6QwjaQpump",
+      "symbol": "En",
+      "amountSol": 0.05,
+      "priceSol": 5.528534013304192e-8,
+      "tx": "DEMO",
+      "mode": "DEMO"
+    },
+    {
+      "ts": 1786803901373,
+      "type": "BUY",
+      "mint": "5vkqCTcv8FsDa9LpyggezxVZUpov8xgF5ZeyVAPopump",
+      "symbol": "Tradwife",
+      "amountSol": 0.05,
+      "priceSol": 2.9120446865772312e-8,
+      "tx": "DEMO",
+      "mode": "DEMO"
+    }
+  ]
+}

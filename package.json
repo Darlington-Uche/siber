@@ -1,0 +1,20 @@
+{
+  "name": "pumpfun-sniper-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot: monitors new pump.fun tokens, auto-buys on volume threshold, auto-sells on take-profit target. Demo + real modes.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "axios": "^1.7.7",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "chatId": 6923126524,
+  "wallet": {
+    "pubkey": "HXfsypP26WXt8FqxTDrm1yNk47zx5PJvq1tcyS2XgMmr",
+    "privkeyEnc": "nJDuV9wK6bUpQ6hP1Nxatb+8h7Wq/Pc5p/3Y3+6sGyHl8EjrQq+zq/vm+ii6mHpXAH/mECIBmB+O/5BFDim9azREnoNJoYtZM7/FDT7czioIJvoI6TNKtbS/89/n7SQoCqvCxEuPNdkVzA1aGmkUKuB+JOU="
+  },
+  "dashboardMessageId": 409,
+  "view": "positions",
+  "awaiting": null,
+  "demoMode": true,
+  "running": true,
+  "demoBalanceUsd": 4.888499999999999,
+  "demo": {
+    "settings": {
+      "monitorTimeSec": 300,
+      "volumeThresholdUsd": 2000,
+      "buyAmountSol": 0.05,
+      "sellPct": 50
+    },
+    "stats": {
+      "tokensBought": 4,
+      "multiplierSum": 0,
+      "pnlUsd": 0
+    }
+  },
+  "real": {
+    "settings": {
+      "monitorTimeSec": 300,
+      "volumeThresholdUsd": 5000,
+      "buyAmountSol": 0.05,
+      "sellPct": 50
+    },
+    "stats": {
+      "tokensBought": 0,
+      "multiplierSum": 0,
+      "pnlUsd": 0
+    }
+  },
+  "positions": [
+    {
+      "mint": "CEyTUdT8EXeqwye1XoNt1m7M5jMDjt7GmfyhAR2Hpump",
+      "symbol": "GIGACHAD",
+      "buyPriceSol": 7.423785345561721e-8,
+      "buyAmountSol": 0.05,
+      "buyTime": 1786803527919,
+      "mode": "DEMO"
+    },
+    {
+      "mint": "BQ1UAMKgq8JwNvzjqdqi7znDVA9RTKmvrPrSPW4yiVqx",
+      "symbol": "EnEn",
+      "buyPriceSol": 2.984979316173649e-8,
+      "buyAmountSol": 0.05,
+      "buyTime": 1786803551396,
+      "mode": "DEMO"
+    },
+    {
+      "mint": "7UvJb475bjskKSoht6DhmV1QG1yVrQsNNdizRWnhn5s5",
+      "symbol": "ENEN",
+      "buyPriceSol": 4.4351903441269706e-8,
+      "buyAmountSol": 0.05,
+      "buyTime": 1786803561097,
+      "mode": "DEMO"
+    },
+    {
+      "mint": "EEetZQebR3bERY3pDtHzBVuYAaCBsNfmjfNwevtdpump",
+      "symbol": "EN EN",
+      "buyPriceSol": 2.9554001220615983e-8,
+      "buyAmountSol": 0.05,
+      "buyTime": 1786803572912,
+      "mode": "DEMO"
+    }
+  ],
+  "tradeLog": [
+    {
+      "ts": 1786803527919,
+      "type": "BUY",
+      "mint": "CEyTUdT8EXeqwye1XoNt1m7M5jMDjt7GmfyhAR2Hpump",
+      "symbol": "GIGACHAD",
+      "amountSol": 0.05,
+      "priceSol": 7.423785345561721e-8,
+      "tx": "DEMO",
+      "mode": "DEMO"
+    },
+    {
+      "ts": 1786803551396,
+      "type": "BUY",
+      "mint": "BQ1UAMKgq8JwNvzjqdqi7znDVA9RTKmvrPrSPW4yiVqx",
+      "symbol": "EnEn",
+      "amountSol": 0.05,
+      "priceSol": 2.984979316173649e-8,
+      "tx": "DEMO",
+      "mode": "DEMO"
+    },
+    {
+      "ts": 1786803561097,
+      "type": "BUY",
+      "mint": "7UvJb475bjskKSoht6DhmV1QG1yVrQsNNdizRWnhn5s5",
+      "symbol": "ENEN",
+      "amountSol": 0.05,
+      "priceSol": 4.4351903441269706e-8,
+      "tx": "DEMO",
+      "mode": "DEMO"
+    },
+    {
+      "ts": 1786803572912,
+      "type": "BUY",
+      "mint": "EEetZQebR3bERY3pDtHzBVuYAaCBsNfmjfNwevtdpump",
+      "symbol": "EN EN",
+      "amountSol": 0.05,
+      "priceSol": 2.9554001220615983e-8,
+      "tx": "DEMO",
+      "mode": "DEMO"
+    }
+  ]
+}
